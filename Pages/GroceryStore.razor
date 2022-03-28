@@ -1,0 +1,35 @@
+﻿@page "/grocerystore"
+
+<h1>Grocery Store Page</h1>
+
+<h3>Add a Food Item to an Aisle:</h3>
+
+<button class="btn btn-primary" @oneclick="FoodItem.QuantityIncrease">+</button>
+<button class="btn btn-primary" @oneclick="FoodItem.QuantityDecrease">-</button>
+
+@code {
+    List<GroceryIsle> Isles = new List<GroceryIsle>
+    {
+        new GroceryIsle { IsleName = "Fruit", IsleNumber = 1, listOfFoodItem = Fruit },
+        new GroceryIsle { IsleName = "Vegetables", IsleNumber = 2, listOfFoodItem = Vegetables },
+        new GroceryIsle { IsleName = "Dairy", IsleNumber = 3, listOfFoodItem = Dairy }
+    };
+
+    List<FoodItem> Fruit = new List<FoodItem>() {
+        new FoodItem { ID = 1, Quantity = 5, FoodName = "Apple", FoodType = "Healthy", OrganicOption = "Yes" },
+        new FoodItem { ID = 2, Quantity = 8, FoodName = "Oranges", FoodType = "Healthy", OrganicOption = "No" },
+        new FoodItem { ID = 3, Quantity = 2, FoodName = "Raspberries", FoodType = "Healthy", OrganicOption = "Yes" }
+    };
+
+    List<FoodItem> Vegetables = new List<FoodItem>() {
+        new FoodItem { ID = 4, Quantity = 2, FoodName = "Cucumber", FoodType = "Healthy", OrganicOption = "Yes" },
+        new FoodItem { ID = 5, Quantity = 4, FoodName = "Tomatoe", FoodType = "Healthy", OrganicOption = "Yes" },
+        new FoodItem { ID = 6, Quantity = 15, FoodName = "Avocado", FoodType = "Healthy", OrganicOption = "Yes" }
+    };
+
+    List<FoodItem> Dairy = new List<FoodItem>() {
+        new FoodItem { ID = 7, Quantity = 2, FoodName = "Cream", FoodType = "High Fat", OrganicOption = "No"},
+        new FoodItem { ID = 8, Quantity = 4, FoodName = "Chedar Cheese", FoodType = "Extra Old", OrganicOption = "No"},
+        new FoodItem { ID = 9, Quantity = 12, FoodName = "Eggs", FoodType = "Free Range", OrganicOption = "Yes"}
+    };
+}
