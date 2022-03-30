@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 
 public class GroceryIsle
@@ -8,7 +9,7 @@ public class GroceryIsle
 
     public GroceryIsle()
     {
-        listOfFoodItem = new List<FoodItem>();
+        listOfFoodItem = new();
     }
 
     public void NewFood(FoodItem newFoodItems)
