@@ -4,15 +4,23 @@
 
 <h3>Add a Food Item to an Aisle:</h3>
 
+<ul>
+    @foreach (var FoodItem in Isles)
+    {
+        <li>@FoodItem.listOfFoodItem</li>
+    }
+</ul>
+
+<input placeholder="Add an Item" />
 <button class="btn btn-primary" @oneclick="FoodItem.QuantityIncrease">+</button>
 <button class="btn btn-primary" @oneclick="FoodItem.QuantityDecrease">-</button>
 
 @code {
-    List<GroceryIsle> Isles = new List<GroceryIsle>
+    public List<GroceryIsle> Isles = new List<GroceryIsle>
     {
-        new GroceryIsle { IsleName = "Fruit", IsleNumber = 1, listOfFoodItem = Fruit },
-        new GroceryIsle { IsleName = "Vegetables", IsleNumber = 2, listOfFoodItem = Vegetables },
-        new GroceryIsle { IsleName = "Dairy", IsleNumber = 3, listOfFoodItem = Dairy }
+        new GroceryIsle { IsleName = "Fruit", IsleNumber = 1},
+        new GroceryIsle { IsleName = "Vegetables", IsleNumber = 2},
+        new GroceryIsle { IsleName = "Dairy", IsleNumber = 3}
     };
 
     List<FoodItem> Fruit = new List<FoodItem>() {
