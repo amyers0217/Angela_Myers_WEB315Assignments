@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/angelamyers/Desktop/AngelaMyersGroceryApp/AngelaMyersGroceryApp/AngelaMyersGroceryApp.csproj": {}
+    "C:\\Users\\W0796187\\Desktop\\Angela_Myers_WEB315Assignments-Assignment-02\\AngelaMyersGroceryApp.csproj": {}
   },
   "projects": {
-    "/Users/angelamyers/Desktop/AngelaMyersGroceryApp/AngelaMyersGroceryApp/AngelaMyersGroceryApp.csproj": {
+    "C:\\Users\\W0796187\\Desktop\\Angela_Myers_WEB315Assignments-Assignment-02\\AngelaMyersGroceryApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/angelamyers/Desktop/AngelaMyersGroceryApp/AngelaMyersGroceryApp/AngelaMyersGroceryApp.csproj",
+        "projectUniqueName": "C:\\Users\\W0796187\\Desktop\\Angela_Myers_WEB315Assignments-Assignment-02\\AngelaMyersGroceryApp.csproj",
         "projectName": "AngelaMyersGroceryApp",
-        "projectPath": "/Users/angelamyers/Desktop/AngelaMyersGroceryApp/AngelaMyersGroceryApp/AngelaMyersGroceryApp.csproj",
-        "packagesPath": "/Users/angelamyers/.nuget/packages/",
-        "outputPath": "/Users/angelamyers/Desktop/AngelaMyersGroceryApp/AngelaMyersGroceryApp/obj/",
+        "projectPath": "C:\\Users\\W0796187\\Desktop\\Angela_Myers_WEB315Assignments-Assignment-02\\AngelaMyersGroceryApp.csproj",
+        "packagesPath": "C:\\Users\\W0796187\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\W0796187\\Desktop\\Angela_Myers_WEB315Assignments-Assignment-02\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/angelamyers/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\W0796187\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     }
