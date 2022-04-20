@@ -12,7 +12,7 @@ namespace AngelaMyersChatApp.Server.Hubs
 
          public async Task SendingMessage(string user, string message)
         {
-            await Clients.Other.SendAsync("SendingMessage", user, message);
+            await Clients.Others.SendAsync("SendingMessage", user, message);
         }
     }
 }
