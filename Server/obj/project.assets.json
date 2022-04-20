@@ -315,29 +315,29 @@
           "lib/net5.0/System.Net.Http.Json.dll": {}
         }
       },
-      "AngelaMyersChatApp.Client/1.0.0": {
+      "AngelaMyersChat.Client/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "AngelaMyersChatApp.Shared": "1.0.0",
+          "AngelaMyersChat.Shared": "1.0.0",
           "Microsoft.AspNetCore.Components.WebAssembly": "5.0.16",
           "System.Net.Http.Json": "5.0.0"
         },
         "compile": {
-          "bin/placeholder/AngelaMyersChatApp.Client.dll": {}
+          "bin/placeholder/AngelaMyersChat.Client.dll": {}
         },
         "runtime": {
-          "bin/placeholder/AngelaMyersChatApp.Client.dll": {}
+          "bin/placeholder/AngelaMyersChat.Client.dll": {}
         }
       },
-      "AngelaMyersChatApp.Shared/1.0.0": {
+      "AngelaMyersChat.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "compile": {
-          "bin/placeholder/AngelaMyersChatApp.Shared.dll": {}
+          "bin/placeholder/AngelaMyersChat.Shared.dll": {}
         },
         "runtime": {
-          "bin/placeholder/AngelaMyersChatApp.Shared.dll": {}
+          "bin/placeholder/AngelaMyersChat.Shared.dll": {}
         }
       }
     }
@@ -855,21 +855,21 @@
         "version.txt"
       ]
     },
-    "AngelaMyersChatApp.Client/1.0.0": {
+    "AngelaMyersChat.Client/1.0.0": {
       "type": "project",
-      "path": "../Client/AngelaMyersChatApp.Client.csproj",
-      "msbuildProject": "../Client/AngelaMyersChatApp.Client.csproj"
+      "path": "../Client/AngelaMyersChat.Client.csproj",
+      "msbuildProject": "../Client/AngelaMyersChat.Client.csproj"
     },
-    "AngelaMyersChatApp.Shared/1.0.0": {
+    "AngelaMyersChat.Shared/1.0.0": {
       "type": "project",
-      "path": "../Shared/AngelaMyersChatApp.Shared.csproj",
-      "msbuildProject": "../Shared/AngelaMyersChatApp.Shared.csproj"
+      "path": "../Shared/AngelaMyersChat.Shared.csproj",
+      "msbuildProject": "../Shared/AngelaMyersChat.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "AngelaMyersChatApp.Client >= 1.0.0",
-      "AngelaMyersChatApp.Shared >= 1.0.0",
+      "AngelaMyersChat.Client >= 1.0.0",
+      "AngelaMyersChat.Shared >= 1.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly.Server >= 5.0.16"
     ]
   },
@@ -879,11 +879,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/angela/Desktop/AngelaMyersChatApp/AngelaMyersChatApp/Server/AngelaMyersChatApp.Server.csproj",
-      "projectName": "AngelaMyersChatApp.Server",
-      "projectPath": "/Users/angela/Desktop/AngelaMyersChatApp/AngelaMyersChatApp/Server/AngelaMyersChatApp.Server.csproj",
+      "projectUniqueName": "/Users/angela/Desktop/AngelaMyersChat/AngelaMyersChat/Server/AngelaMyersChat.Server.csproj",
+      "projectName": "AngelaMyersChat.Server",
+      "projectPath": "/Users/angela/Desktop/AngelaMyersChat/AngelaMyersChat/Server/AngelaMyersChat.Server.csproj",
       "packagesPath": "/Users/angela/.nuget/packages/",
-      "outputPath": "/Users/angela/Desktop/AngelaMyersChatApp/AngelaMyersChatApp/Server/obj/",
+      "outputPath": "/Users/angela/Desktop/AngelaMyersChat/AngelaMyersChat/Server/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/angela/.nuget/NuGet/NuGet.Config"
@@ -898,11 +898,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "/Users/angela/Desktop/AngelaMyersChatApp/AngelaMyersChatApp/Client/AngelaMyersChatApp.Client.csproj": {
-              "projectPath": "/Users/angela/Desktop/AngelaMyersChatApp/AngelaMyersChatApp/Client/AngelaMyersChatApp.Client.csproj"
+            "/Users/angela/Desktop/AngelaMyersChat/AngelaMyersChat/Client/AngelaMyersChat.Client.csproj": {
+              "projectPath": "/Users/angela/Desktop/AngelaMyersChat/AngelaMyersChat/Client/AngelaMyersChat.Client.csproj"
             },
-            "/Users/angela/Desktop/AngelaMyersChatApp/AngelaMyersChatApp/Shared/AngelaMyersChatApp.Shared.csproj": {
-              "projectPath": "/Users/angela/Desktop/AngelaMyersChatApp/AngelaMyersChatApp/Shared/AngelaMyersChatApp.Shared.csproj"
+            "/Users/angela/Desktop/AngelaMyersChat/AngelaMyersChat/Shared/AngelaMyersChat.Shared.csproj": {
+              "projectPath": "/Users/angela/Desktop/AngelaMyersChat/AngelaMyersChat/Shared/AngelaMyersChat.Shared.csproj"
             }
           }
         }

@@ -1,18 +1,23 @@
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.SignalR;
 
-namespace AngelaMyersChatApp.Server.Hubs
+namespace AngelaMyersChat.Server.Hubs
 {
     public class ChatHub : Hub
     {
-        public async Task SendMessage(string user, string message)
+        public Task SendMessage(string user, string message)
         {
-            await Clients.All.SendAsync("ReceiveMessage", user, message);
+            return Clients.All.SendAsync("ReceiveMessage", user, message);
         }
 
-         public async Task SendingMessage(string user, string message)
+        public Task SendMessageToCaller(string user, string message)
         {
-            await Clients.Others.SendAsync("SendingMessage", user, message);
+            return Clients.Caller.SendAsync("RecieveMessage", user, message);
+        }
+
+        public Task SendMessageToGroup(string user, string message)
+        {
+            return Clients.Group("SignalR Users").SendAsync("RecieveMessage", user, message);
         }
     }
 }

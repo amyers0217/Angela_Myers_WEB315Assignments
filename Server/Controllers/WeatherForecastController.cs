@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using AngelaMyersChatApp.Shared;
+using AngelaMyersChat.Shared;
 
-namespace AngelaMyersChatApp.Server.Controllers
+namespace AngelaMyersChat.Server.Controllers
 {
     [ApiController]
     [Route("[controller]")]

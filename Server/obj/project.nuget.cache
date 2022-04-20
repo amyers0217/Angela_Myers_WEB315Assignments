@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1M8qGDfDrtr6gVXL3KdYM3jQRtbuI+gK0yyF6qL/Cw0dSvWOHUGr571oJkmJOL9ivLfaMPa+6OIyfPTJRrXQQA==",
+  "dgSpecHash": "hr1wpygqDYaL7v5wggXItLOHTes8pbfuciRtDJVqjsGTzRdQgCc5vHBDiPi3EO+Ays5XCvFFQhuQs99a8lkekw==",
   "success": true,
-  "projectFilePath": "/Users/angela/Desktop/AngelaMyersChatApp/AngelaMyersChatApp/Server/AngelaMyersChatApp.Server.csproj",
+  "projectFilePath": "/Users/angela/Desktop/AngelaMyersChat/AngelaMyersChat/Server/AngelaMyersChat.Server.csproj",
   "expectedPackageFiles": [
     "/Users/angela/.nuget/packages/microsoft.aspnetcore.authorization/5.0.16/microsoft.aspnetcore.authorization.5.0.16.nupkg.sha512",
     "/Users/angela/.nuget/packages/microsoft.aspnetcore.components/5.0.16/microsoft.aspnetcore.components.5.0.16.nupkg.sha512",
