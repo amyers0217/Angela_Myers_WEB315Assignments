@@ -5,8 +5,8 @@
 
 <div class="form-group">
     <label>
-        User:
-        <input @bind="userInput" />
+        name:
+        <input @bind="nameInput" />
     </label>
 </div>
 <div class="form-group">
@@ -29,7 +29,7 @@
 @code {
     private HubConnection hubConnection;
     private List<string> messages = new List<string>();
-    private string userInput;
+    private string nameInput;
     private string messageInput;
 
     protected override async Task OnInitializedAsync()
@@ -38,9 +38,9 @@
             .WithUrl(NavigationManager.ToAbsoluteUri("/chathub"))
             .Build();
 
-        hubConnection.On<string, string>("ReceiveMessage", (user, message) =>
+        hubConnection.On<string, string>("ReceiveMessage", (name, message) =>
         {
-            var encodedMsg = $"{user}: {message}";
+            var encodedMsg = $"{name}: {message}";
             messages.Add(encodedMsg);
             StateHasChanged();
         });
@@ -49,7 +49,7 @@
     }
 
     async Task Send() =>
-        await hubConnection.SendAsync("SendMessage", userInput, messageInput);
+        await hubConnection.SendAsync("SendMessage", nameInput, messageInput);
 
     public bool IsConnected =>
         hubConnection.State == HubConnectionState.Connected;
