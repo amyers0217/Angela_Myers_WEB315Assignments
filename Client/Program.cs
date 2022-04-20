@@ -8,7 +8,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
-namespace AngelaMyersChatApp.Client
+namespace AngelaMyersChat.Client
 {
     public class Program
     {
