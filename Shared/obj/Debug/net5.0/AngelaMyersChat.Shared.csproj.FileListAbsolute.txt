@@ -1,0 +1,12 @@
+/Users/angela/Desktop/AngelaMyersChat/AngelaMyersChat/Shared/bin/Debug/net5.0/AngelaMyersChat.Shared.deps.json
+/Users/angela/Desktop/AngelaMyersChat/AngelaMyersChat/Shared/bin/Debug/net5.0/AngelaMyersChat.Shared.dll
+/Users/angela/Desktop/AngelaMyersChat/AngelaMyersChat/Shared/bin/Debug/net5.0/ref/AngelaMyersChat.Shared.dll
+/Users/angela/Desktop/AngelaMyersChat/AngelaMyersChat/Shared/bin/Debug/net5.0/AngelaMyersChat.Shared.pdb
+/Users/angela/Desktop/AngelaMyersChat/AngelaMyersChat/Shared/obj/Debug/net5.0/AngelaMyersChat.Shared.csproj.AssemblyReference.cache
+/Users/angela/Desktop/AngelaMyersChat/AngelaMyersChat/Shared/obj/Debug/net5.0/AngelaMyersChat.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/angela/Desktop/AngelaMyersChat/AngelaMyersChat/Shared/obj/Debug/net5.0/AngelaMyersChat.Shared.AssemblyInfoInputs.cache
+/Users/angela/Desktop/AngelaMyersChat/AngelaMyersChat/Shared/obj/Debug/net5.0/AngelaMyersChat.Shared.AssemblyInfo.cs
+/Users/angela/Desktop/AngelaMyersChat/AngelaMyersChat/Shared/obj/Debug/net5.0/AngelaMyersChat.Shared.csproj.CoreCompileInputs.cache
+/Users/angela/Desktop/AngelaMyersChat/AngelaMyersChat/Shared/obj/Debug/net5.0/AngelaMyersChat.Shared.dll
+/Users/angela/Desktop/AngelaMyersChat/AngelaMyersChat/Shared/obj/Debug/net5.0/ref/AngelaMyersChat.Shared.dll
+/Users/angela/Desktop/AngelaMyersChat/AngelaMyersChat/Shared/obj/Debug/net5.0/AngelaMyersChat.Shared.pdb

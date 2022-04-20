@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AngelaMyersChatApp.Shared
+namespace AngelaMyersChat.Shared
 {
     public class WeatherForecast
     {
