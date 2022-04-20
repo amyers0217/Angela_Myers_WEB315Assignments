@@ -1,33 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "/Users/angela/Desktop/AngelaMyersChatApp/AngelaMyersChatApp/Server/AngelaMyersChatApp.Server.csproj": {}
+    "C:\\Users\\W0796187\\Desktop\\Angela_Myers_WEB315Assignments-Assignment-03\\Server\\AngelaMyersChatApp.Server.csproj": {}
   },
   "projects": {
-    "/Users/angela/Desktop/AngelaMyersChatApp/AngelaMyersChatApp/Client/AngelaMyersChatApp.Client.csproj": {
+    "C:\\Users\\W0796187\\Desktop\\Angela_Myers_WEB315Assignments-Assignment-03\\Client\\AngelaMyersChatApp.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/angela/Desktop/AngelaMyersChatApp/AngelaMyersChatApp/Client/AngelaMyersChatApp.Client.csproj",
+        "projectUniqueName": "C:\\Users\\W0796187\\Desktop\\Angela_Myers_WEB315Assignments-Assignment-03\\Client\\AngelaMyersChatApp.Client.csproj",
         "projectName": "AngelaMyersChatApp.Client",
-        "projectPath": "/Users/angela/Desktop/AngelaMyersChatApp/AngelaMyersChatApp/Client/AngelaMyersChatApp.Client.csproj",
-        "packagesPath": "/Users/angela/.nuget/packages/",
-        "outputPath": "/Users/angela/Desktop/AngelaMyersChatApp/AngelaMyersChatApp/Client/obj/",
+        "projectPath": "C:\\Users\\W0796187\\Desktop\\Angela_Myers_WEB315Assignments-Assignment-03\\Client\\AngelaMyersChatApp.Client.csproj",
+        "packagesPath": "C:\\Users\\W0796187\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\W0796187\\Desktop\\Angela_Myers_WEB315Assignments-Assignment-03\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/angela/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\W0796187\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/Users/angela/Desktop/AngelaMyersChatApp/AngelaMyersChatApp/Shared/AngelaMyersChatApp.Shared.csproj": {
-                "projectPath": "/Users/angela/Desktop/AngelaMyersChatApp/AngelaMyersChatApp/Shared/AngelaMyersChatApp.Shared.csproj"
+              "C:\\Users\\W0796187\\Desktop\\Angela_Myers_WEB315Assignments-Assignment-03\\Shared\\AngelaMyersChatApp.Shared.csproj": {
+                "projectPath": "C:\\Users\\W0796187\\Desktop\\Angela_Myers_WEB315Assignments-Assignment-03\\Shared\\AngelaMyersChatApp.Shared.csproj"
               }
             }
           }
@@ -50,6 +52,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.16, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Client": {
+              "target": "Package",
+              "version": "[6.0.4, )"
             },
             "System.Net.Http.Json": {
               "target": "Package",
@@ -77,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.407/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -86,33 +92,35 @@
         }
       }
     },
-    "/Users/angela/Desktop/AngelaMyersChatApp/AngelaMyersChatApp/Server/AngelaMyersChatApp.Server.csproj": {
+    "C:\\Users\\W0796187\\Desktop\\Angela_Myers_WEB315Assignments-Assignment-03\\Server\\AngelaMyersChatApp.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/angela/Desktop/AngelaMyersChatApp/AngelaMyersChatApp/Server/AngelaMyersChatApp.Server.csproj",
+        "projectUniqueName": "C:\\Users\\W0796187\\Desktop\\Angela_Myers_WEB315Assignments-Assignment-03\\Server\\AngelaMyersChatApp.Server.csproj",
         "projectName": "AngelaMyersChatApp.Server",
-        "projectPath": "/Users/angela/Desktop/AngelaMyersChatApp/AngelaMyersChatApp/Server/AngelaMyersChatApp.Server.csproj",
-        "packagesPath": "/Users/angela/.nuget/packages/",
-        "outputPath": "/Users/angela/Desktop/AngelaMyersChatApp/AngelaMyersChatApp/Server/obj/",
+        "projectPath": "C:\\Users\\W0796187\\Desktop\\Angela_Myers_WEB315Assignments-Assignment-03\\Server\\AngelaMyersChatApp.Server.csproj",
+        "packagesPath": "C:\\Users\\W0796187\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\W0796187\\Desktop\\Angela_Myers_WEB315Assignments-Assignment-03\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/angela/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\W0796187\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/Users/angela/Desktop/AngelaMyersChatApp/AngelaMyersChatApp/Client/AngelaMyersChatApp.Client.csproj": {
-                "projectPath": "/Users/angela/Desktop/AngelaMyersChatApp/AngelaMyersChatApp/Client/AngelaMyersChatApp.Client.csproj"
+              "C:\\Users\\W0796187\\Desktop\\Angela_Myers_WEB315Assignments-Assignment-03\\Client\\AngelaMyersChatApp.Client.csproj": {
+                "projectPath": "C:\\Users\\W0796187\\Desktop\\Angela_Myers_WEB315Assignments-Assignment-03\\Client\\AngelaMyersChatApp.Client.csproj"
               },
-              "/Users/angela/Desktop/AngelaMyersChatApp/AngelaMyersChatApp/Shared/AngelaMyersChatApp.Shared.csproj": {
-                "projectPath": "/Users/angela/Desktop/AngelaMyersChatApp/AngelaMyersChatApp/Shared/AngelaMyersChatApp.Shared.csproj"
+              "C:\\Users\\W0796187\\Desktop\\Angela_Myers_WEB315Assignments-Assignment-03\\Shared\\AngelaMyersChatApp.Shared.csproj": {
+                "projectPath": "C:\\Users\\W0796187\\Desktop\\Angela_Myers_WEB315Assignments-Assignment-03\\Shared\\AngelaMyersChatApp.Shared.csproj"
               }
             }
           }
@@ -150,26 +158,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.407/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/angela/Desktop/AngelaMyersChatApp/AngelaMyersChatApp/Shared/AngelaMyersChatApp.Shared.csproj": {
+    "C:\\Users\\W0796187\\Desktop\\Angela_Myers_WEB315Assignments-Assignment-03\\Shared\\AngelaMyersChatApp.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/angela/Desktop/AngelaMyersChatApp/AngelaMyersChatApp/Shared/AngelaMyersChatApp.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\W0796187\\Desktop\\Angela_Myers_WEB315Assignments-Assignment-03\\Shared\\AngelaMyersChatApp.Shared.csproj",
         "projectName": "AngelaMyersChatApp.Shared",
-        "projectPath": "/Users/angela/Desktop/AngelaMyersChatApp/AngelaMyersChatApp/Shared/AngelaMyersChatApp.Shared.csproj",
-        "packagesPath": "/Users/angela/.nuget/packages/",
-        "outputPath": "/Users/angela/Desktop/AngelaMyersChatApp/AngelaMyersChatApp/Shared/obj/",
+        "projectPath": "C:\\Users\\W0796187\\Desktop\\Angela_Myers_WEB315Assignments-Assignment-03\\Shared\\AngelaMyersChatApp.Shared.csproj",
+        "packagesPath": "C:\\Users\\W0796187\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\W0796187\\Desktop\\Angela_Myers_WEB315Assignments-Assignment-03\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/angela/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\W0796187\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -202,7 +212,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.407/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     }
